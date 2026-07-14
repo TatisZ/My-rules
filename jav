@@ -2,3 +2,4 @@
 
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN-SUFFIX,javdb.com
+DOMAIN-SUFFIX,yfsp.tv
