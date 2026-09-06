@@ -1,8 +1,6 @@
 # NAME: Direct
 
 domain_suffix_set:
-  - google.com
-  - youtube.com
   - keepfrds.com
   - chinastock.com.cn
   - hhanclub.top
