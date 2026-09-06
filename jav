@@ -2,7 +2,7 @@
 
 domain_suffix_set:
   - jdbstatic.com
-  - javdb.com
+  - javdb.com 
   - yfsp.tv
   - pipecdn.vip
   - anybound.vip
