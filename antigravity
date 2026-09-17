@@ -1,0 +1,25 @@
+# NAME: Antigravity
+# DESC: Google Antigravity IDE (com.google.antigravity) 的分流规则
+#
+
+
+no_resolve: false
+
+# ---------------------------------------------------------------------------
+# 必需：Antigravity 专属端点
+# ---------------------------------------------------------------------------
+domain_keyword_set:
+  # antigravity.google            (官网 / 登录回调 / docs)
+  # antigravity.google.com
+  # antigravity-unleash.goog      (InitializeUnleash 特性开关)
+  # antigravity-ide-auto-updater-974169037036.us-central1.run.app  (自动更新)
+  - antigravity
+
+  # cloudcode-pa.googleapis.com            (主 API)
+  # daily-cloudcode-pa.googleapis.com      (daily 通道，默认走这条)
+  # autopush-cloudcode-pa.sandbox.googleapis.com  (canary)
+  - cloudcode-pa
+
+domain_suffix_set:
+  # .goog 顶级域，兜住 antigravity-unleash.goog 等
+  - goog
