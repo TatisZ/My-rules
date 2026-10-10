@@ -1,0 +1,22 @@
+---
+# ============================================================================
+#  NAME   : Direct
+#  SOURCE : TatisZ/My-rules@main/Direct (egern 格式)
+#  FORMAT : Clash / mihomo rule-provider —— behavior: classical, format: yaml
+#  CONVERT: egern2clash.py（egern *_set → Clash 规则语法，no_resolve=false）
+# ============================================================================
+payload:
+  # NAME: Direct
+  # ---- domain_suffix_set ----
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,chinastock.com.cn
+  - DOMAIN-SUFFIX,hhanclub.top
+  - DOMAIN-SUFFIX,ubits.club
+  - DOMAIN-SUFFIX,pterclub.net
+  - DOMAIN-SUFFIX,myds.me
+  - DOMAIN-SUFFIX,account.synology.com
+  - DOMAIN-SUFFIX,ddns.synology.com
+  - DOMAIN-SUFFIX,checkport.synology.com
+  - DOMAIN-SUFFIX,checkipv6.synology.com
+  - DOMAIN-SUFFIX,checkip.synology.com
+  - DOMAIN-SUFFIX,ptchina.org

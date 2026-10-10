@@ -1,0 +1,15 @@
+---
+# ============================================================================
+#  NAME   : Jav
+#  SOURCE : TatisZ/My-rules@main/jav (egern 格式)
+#  FORMAT : Clash / mihomo rule-provider —— behavior: classical, format: yaml
+#  CONVERT: egern2clash.py（egern *_set → Clash 规则语法，no_resolve=false）
+# ============================================================================
+payload:
+  # NAME: Jav
+  # ---- domain_suffix_set ----
+  - DOMAIN-SUFFIX,jdbstatic.com
+  - DOMAIN-SUFFIX,javdb.com
+  - DOMAIN-SUFFIX,yfsp.tv
+  - DOMAIN-SUFFIX,pipecdn.vip
+  - DOMAIN-SUFFIX,anybound.vip
