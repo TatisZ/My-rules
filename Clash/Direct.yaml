@@ -20,3 +20,4 @@ payload:
   - DOMAIN-SUFFIX,checkipv6.synology.com
   - DOMAIN-SUFFIX,checkip.synology.com
   - DOMAIN-SUFFIX,ptchina.org
+  - DOMAIN-SUFFIX,20111020.xyz
