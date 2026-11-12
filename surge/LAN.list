@@ -1,0 +1,17 @@
+# NAME: LAN (局域网 / 本机回环直连)
+# FORMAT: Surge RULE-SET —— 经典规则行，不带 policy 列
+# SOURCE: 260927.yaml 的 `or: name=lan` 组合规则（逐条拆成 Surge 规则行）
+# CONSUMER: RULE-SET,<本文件 raw URL>,DIRECT
+# NOTE: Egern 原组合是 OR(...)，Surge RULE-SET 里逐行就是 OR 语义，故直接平铺。
+#       原 `domain_keyword: localhost` → DOMAIN-KEYWORD；
+#       原 `domain_suffix: .local`   → DOMAIN-SUFFIX,local；
+#       IP-CIDR 行加 no-resolve，避免域名请求被强制解析（防 DNS 泄漏）。
+DOMAIN-KEYWORD,localhost
+DOMAIN-SUFFIX,local
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
