@@ -1,0 +1,19 @@
+# NAME: Direct (直连 / PT、群晖、学术站点)
+# FORMAT: Surge RULE-SET —— 经典规则行，不带 policy 列
+# SOURCE: https://github.com/TatisZ/My-rules/blob/main/Direct  (Egern YAML: domain_suffix_set)
+# CONSUMER: RULE-SET,<本文件 raw URL>,DIRECT
+# NOTE: 本文件由 Egern `domain_suffix_set` 逐条转成 DOMAIN-SUFFIX；
+#       另外补一条 20111020.xyz（来自同仓库 Clash/Direct.yaml，egern 版漏了）。
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,chinastock.com.cn
+DOMAIN-SUFFIX,hhanclub.top
+DOMAIN-SUFFIX,ubits.club
+DOMAIN-SUFFIX,pterclub.net
+DOMAIN-SUFFIX,myds.me
+DOMAIN-SUFFIX,account.synology.com
+DOMAIN-SUFFIX,ddns.synology.com
+DOMAIN-SUFFIX,checkport.synology.com
+DOMAIN-SUFFIX,checkipv6.synology.com
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,ptchina.org
+DOMAIN-SUFFIX,20111020.xyz
